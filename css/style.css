@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #203239;
+    --accent-color: #FF7527;
+    --white-color: #FFFFFF;
+    --bgc-color: #EEEDDE;
+    --bgc-color-page: #E5E5E5;
+    --bgc-second-color-button: #D6D5C7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+html {
+    background-color: var(--bgc-color-page);
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 1366px;
+    letter-spacing: 50px 1px 100px 100px  ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header,
+.hero {
+    background-color: var(--bgc-color);
+}
+
+/*Logo */
+
+.logo-o {
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 100px;   
+    margin-right: 1px;
+}
+
+.logo-mah {
+    color: var(--primary-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/*nav*/
+
+nav {
+    margin-top: px;
+}
+
+.nav {
+    margin-left: 525px;
+    
+}
+
+.nav,
+.inline-block {
+    display: inline-block; 
+}
+
+.link {
+    position: relative;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    font-weight: 600;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    border-radius: 3px;
+}
+
+.link:hover:before {
+    width: 100%;
+}
+
+.inline-block {
+    margin-top: 63px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+/* hero */
+.hero {
+    
+}
+
+.hero-title {
+    padding-top: 100px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+
+.text-hero {
+    margin-left: 100px;
+    width: 545px;
+    color: rgba(32, 50, 57, 0.55);
+    margin-bottom: 55px;
+}
+
+.form {
+    margin-left: 100px;
+    text-decoration: none;
+}
