@@ -32,69 +32,97 @@
             <p class="text-hero">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang
             lebih mudah.</p>
             <form action="/form/submit" method="GET" class="form">
-                <input type="text" name="text" class="search" placeholder="Search location, properties, residental group">
+                <input type="text" name="text" placeholder="Search location, properties, residental group">
                 <input type="submit" name="submit" class="submit" value="Search">
+                <svg class="location" width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.75 9C5.75 7.20507 7.20507 5.75 9 5.75C10.7949 5.75 12.25 7.20507 12.25 9C12.25 10.7949 10.7949 12.25 9 12.25C7.20507 12.25 5.75 10.7949 5.75 9Z"
+                            fill="#203239" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.773543 7.87739C1.11718 3.70845 4.60097 0.5 8.78406 0.5H9.21599C13.3991 0.5 16.8829 3.70845 17.2265 7.87739C17.4115 10.122 16.7182 12.3508 15.2925 14.0943L10.4995 19.9561C9.72449 20.9039 8.27556 20.9039 7.50059 19.9561L2.70752 14.0943C1.28187 12.3508 0.588525 10.122 0.773543 7.87739ZM9 4.25C6.37665 4.25 4.25 6.37665 4.25 9C4.25 11.6234 6.37665 13.75 9 13.75C11.6234 13.75 13.75 11.6234 13.75 9C13.75 6.37665 11.6234 4.25 9 4.25Z"
+                            fill="#203239" />
+                </svg>
             </form>
-            <h2>200<span>+</span></h2>
-            <p>Residental grup telah bergabung</p>
-            <h2>10<span>Tahun</span></h2>
-            <p>Sudah berpengalaman</p>
-            <h2>999<span>+</span></h2>
-            <p>Properti tersedia di berbagai Kota</p>
-            <img src="img/unsplash_ctUWE7BUEzE.png" alt="House">
+            <ul class="info">
+                <li class="text-info">
+                    <p class="text-info-title">200<span>+</span></p>
+                    <p>Residental grup <br> telah bergabung</p>
+                </li>
+                <li class="text-info">
+                    <p class="text-info-title">10<span class="tahun">Tahun</span></p>
+                    <p>Sudah <br> berpengalaman</p>
+                </li>
+                <li class="text-info">
+                    <p class="text-info-title">999<span>+</span></p>
+                    <p>Properti tersedia <br> di berbagai Kota</p>
+                </li>
+            </ul>
+            <img class="hero-img" src="img/unsplash_ctUWE7BUEzE.png" alt="House">
         </section>
         <section>
-            <h2>Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+            <h2 class="title" >Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
             <ul>
-                <li>
-                    <h3>Pilih Properti<span>01</span></h3>
-                    <p>Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca
+                <li class="project">
+                    <div class="rectangle"></div>
+                    <p class="acent">01</p>
+                    <div class="rectangle-two"></div>
+                    <a href="/">Baca lebih Lanjut
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-arrow-right"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                    </a>
+                    <h3 class="project-title">Pilih Properti</h3>             
+                    <p class="project-text">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca
                     lebih lanjut di sini</p>
-                    <a href="/">Baca lebih Lanjut
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
-                            viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                        </svg>
-                    </a>
                 </li>
-                <li>
-                    <h3>Proses Booking<span>02</span></h3>
-                    <p>Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan unit properti tertentu.</p>
+                <li class="project">
+                    <div class="rectangle"></div>
+                    <p class="acent">02</p>
+                    <div class="rectangle-two"></div>
                     <a href="/">Baca lebih Lanjut
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-arrow-right"
                             viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
-                    </a>
+                    </a>      
+                    <h3 class="project-title">Proses Booking</h3>
+                    <p class="project-text">Pembayaran dalam bentuk sejumlah uang sebagai komitmen memesan unit properti tertentu.</p>
                 </li>
-                <li>
-                    <h3>KPR dan Sertifikasi<span>03</span></h3>
-                    <p>Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika diperlukan dan dilanjutkan proses sertifkasi HGB.</p>
+                <li class="project">
+                    <div class="rectangle"></div>
+                    <p class="acent">03</p>
+                    <div class="rectangle-two"></div>
                     <a href="/">Baca lebih Lanjut
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-arrow-right"
                             viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                         </svg>
                     </a>
+                    <h3 class="project-title">KPR dan Sertifikasi</h3>
+                    <p class="project-text">Pembiayaan KPR untuk pembeli rumah dengan skema pembiayaan jika diperlukan dan dilanjutkan proses sertifkasi HGB.</p> 
                 </li>
             </ul>
         </section>
-        <section>
-            <p>Pilihan konsumen</p>
+        <section class="choice">
+            <p class="choice-text">Pilihan konsumen</p>
             <h3>Residen Favorit</h3>
-            <img src="/img/unsplash_KqOLr8OiQLU.png" alt="House">
-            <img src="/img/unsplash_UV81E0oXXWQ.png" alt="Stairs">
-            <h2>Bangunan yang dirancang oleh Aristektur Handal</h2>
-            <p>Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para
-            Arsitektur ternama dan Developer yang terpercaya.</p>
-            <a href="tel:+380639739351"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M1.00019 6.8605C2.91659 11.0344 6.3266 14.3529 10.5661 16.1519L11.2457 16.4547C12.8005 17.1474 14.6283 16.6211 15.5766 15.2076L16.4647 13.8839C16.7535 13.4536 16.6656 12.8739 16.2622 12.5485L13.2503 10.1187C12.808 9.76181 12.1574 9.84493 11.819 10.3016L10.8873 11.5589C8.49649 10.3795 6.55544 8.43846 5.37609 6.04765L6.63334 5.11593C7.09001 4.77751 7.17313 4.12699 6.81624 3.68461L4.38637 0.672667C4.06103 0.269386 3.48152 0.181419 3.05116 0.469987L1.71832 1.36368C0.295973 2.31739 -0.227407 4.16024 0.481324 5.71919L0.999413 6.85881L1.00019 6.8605Z"
-                    fill="black" />
-            </svg>Hubungi Kami</a>
+            <img src="/img/unsplash_KqOLr8OiQLU.png" alt="House" class="img-one">
+            <img src="/img/unsplash_UV81E0oXXWQ (1).jpg" alt="Stairs" class="img-two">
+            <div>
+                <h2>Bangunan yang dirancang oleh Aristektur Handal</h2>
+                <p>Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para
+                    Arsitektur ternama dan Developer yang terpercaya.</p>
+                <a href="tel:+380639739351"><svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1.00019 6.8605C2.91659 11.0344 6.3266 14.3529 10.5661 16.1519L11.2457 16.4547C12.8005 17.1474 14.6283 16.6211 15.5766 15.2076L16.4647 13.8839C16.7535 13.4536 16.6656 12.8739 16.2622 12.5485L13.2503 10.1187C12.808 9.76181 12.1574 9.84493 11.819 10.3016L10.8873 11.5589C8.49649 10.3795 6.55544 8.43846 5.37609 6.04765L6.63334 5.11593C7.09001 4.77751 7.17313 4.12699 6.81624 3.68461L4.38637 0.672667C4.06103 0.269386 3.48152 0.181419 3.05116 0.469987L1.71832 1.36368C0.295973 2.31739 -0.227407 4.16024 0.481324 5.71919L0.999413 6.85881L1.00019 6.8605Z"
+                            fill="black" />
+                    </svg>Hubungi Kami</a>
+            </div>
         </section>
         <section>
             <p>Pilihan Auditor</p>
